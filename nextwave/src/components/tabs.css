@@ -1,0 +1,69 @@
+.tabs_headings {
+    /* display: flex; */
+    background: #D7DFE9;
+    border:none !important;
+    /* justify-content: space-around; */
+    width:600px;
+    height:40px;
+    margin:auto;
+    margin-top: 100px;
+
+    .react-tabs__tab-list {
+        display: flex;
+        justify-content: space-evenly;
+        border:1px solid #D7DFE9;
+        margin-bottom: 0;
+        height:100%;
+        border-radius: 5%;
+        border: none;
+    }
+
+    .react-tabs__tab.react-tabs__tab--selected {
+        /* height:100%; */
+        background: #0B69FF !important;
+        color:white;
+        border-radius: 0;
+    }
+
+    .react-tabs__tab {
+        width:100%;
+        text-align: center;
+        bottom:0;
+        border-right:1px solid #c9cbce;
+        background: #D7DFE9;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tabs_headings {
+        width:100%;
+        margin-top: 75px;
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    .tabs_headings {
+        width:100%;
+        margin-top: 50px;
+    }
+}
+
+
+.tabs_main {
+    margin: 0 7rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .tabs_main {
+        margin: 0 3rem;
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    .tabs_main {
+        margin: 0 1rem;
+    }
+}
